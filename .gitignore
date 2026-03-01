@@ -1,0 +1,7 @@
+node_modules/
+.clarinet/
+deployments/
+lcov.info
+costs-reports.json
+*.env
+.DS_Store
