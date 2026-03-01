@@ -1,0 +1,22 @@
+[network]
+name = "devnet"
+
+[accounts.deployer]
+mnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon art"
+balance = 100_000_000_000_000
+
+[accounts.wallet_1]
+mnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon diesel"
+balance = 100_000_000_000_000
+
+[accounts.wallet_2]
+mnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon false"
+balance = 100_000_000_000_000
+
+[accounts.wallet_3]
+mnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon kite"
+balance = 100_000_000_000_000
+
+[accounts.wallet_4]
+mnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon organ"
+balance = 100_000_000_000_000

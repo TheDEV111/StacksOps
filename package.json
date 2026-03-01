@@ -1,0 +1,18 @@
+{
+  "name": "trust-ops",
+  "version": "1.0.0",
+  "description": "TrustOps - Bitcoin-Secured Customer Operations & Trust Layer",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@hirosystems/clarinet-sdk": "^3.8.1",
+    "@stacks/transactions": "^7.3.1",
+    "@types/node": "^22.0.0",
+    "vitest": "^2.0.0"
+  },
+  "dependencies": {
+    "vitest-environment-clarinet": "^3.0.2"
+  }
+}
