@@ -1,0 +1,30 @@
+[project]
+name = "trust-ops"
+description = "TrustOps - Bitcoin-Secured Customer Operations & Trust Layer"
+authors = []
+telemetry = false
+cache_dir = "./.clarinet"
+
+[contracts.trust-ops-core]
+path = "contracts/trust-ops-core.clar"
+clarity_version = 2
+epoch = "2.5"
+
+[contracts.reputation]
+path = "contracts/reputation.clar"
+clarity_version = 2
+epoch = "2.5"
+
+[contracts.support-tiers]
+path = "contracts/support-tiers.clar"
+clarity_version = 2
+epoch = "2.5"
+
+[contracts.dispute-resolution]
+path = "contracts/dispute-resolution.clar"
+clarity_version = 2
+epoch = "2.5"
+
+[repl]
+costs_version = 3
+parser_version = 2

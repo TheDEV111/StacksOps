@@ -1,0 +1,65 @@
+id: 0
+name: Simulated deployment, used as a default for `clarinet console`, `clarinet test` and `clarinet check`
+network: simnet
+genesis:
+  wallets:
+  - name: deployer
+    address: ST1JAHE8GEHB0MCBGR8J6W0AA7TJEE1XKFSD2Q80H
+    balance: '100000000000000'
+    sbtc-balance: '1000000000'
+  - name: wallet_1
+    address: ST3F7TZP4MRJ4161XP9NRB0MTVGBC0B947V2H1FWZ
+    balance: '100000000000000'
+    sbtc-balance: '1000000000'
+  - name: wallet_2
+    address: ST2TAJ3QAPRVZB14F2WS73HFVNVTJ5RK1R50GXD8E
+    balance: '100000000000000'
+    sbtc-balance: '1000000000'
+  - name: wallet_3
+    address: ST1AAV275S6C7JAK9D5BEJ0GDY85DH5QM9P4DD8M7
+    balance: '100000000000000'
+    sbtc-balance: '1000000000'
+  - name: wallet_4
+    address: ST3G3G6XC9EVT6WGQRZ8KEXNR4F95EFTXTZEBX9TZ
+    balance: '100000000000000'
+    sbtc-balance: '1000000000'
+  contracts:
+  - genesis
+  - lockup
+  - bns
+  - cost-voting
+  - costs
+  - pox
+  - costs-2
+  - pox-2
+  - costs-3
+  - pox-3
+  - pox-4
+  - signers
+  - signers-voting
+  - costs-4
+plan:
+  batches:
+  - id: 0
+    transactions:
+    - transaction-type: emulated-contract-publish
+      contract-name: dispute-resolution
+      emulated-sender: ST1JAHE8GEHB0MCBGR8J6W0AA7TJEE1XKFSD2Q80H
+      path: contracts/dispute-resolution.clar
+      clarity-version: 2
+    - transaction-type: emulated-contract-publish
+      contract-name: reputation
+      emulated-sender: ST1JAHE8GEHB0MCBGR8J6W0AA7TJEE1XKFSD2Q80H
+      path: contracts/reputation.clar
+      clarity-version: 2
+    - transaction-type: emulated-contract-publish
+      contract-name: support-tiers
+      emulated-sender: ST1JAHE8GEHB0MCBGR8J6W0AA7TJEE1XKFSD2Q80H
+      path: contracts/support-tiers.clar
+      clarity-version: 2
+    - transaction-type: emulated-contract-publish
+      contract-name: trust-ops-core
+      emulated-sender: ST1JAHE8GEHB0MCBGR8J6W0AA7TJEE1XKFSD2Q80H
+      path: contracts/trust-ops-core.clar
+      clarity-version: 2
+    epoch: '2.5'
